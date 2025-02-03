@@ -1,3 +1,4 @@
+import "./index.css";
 const itemsMenu = document.querySelectorAll(".sidebar__navigation-item");
 const sidebar = document.querySelector(".sidebar");
 const breakingBtn = sidebar.querySelector(".sidebar__button-toggle");

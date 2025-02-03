@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Тестовое задание</title>
-    <link href="./styles/index.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="page">
     <section class="sidebar">
@@ -70,7 +69,7 @@
       <div class="header__user-menu">
         <a href="#" class="header__user-menu-link">Мария Городилова</a>
         <a href="#" class="header__user-menu-link-avatar">
-          <img src="./images/photo.png" class="header__user-menu-photo" alt="Аватар пользователя"/>
+          <img src="<%=require('./images/photo.png')%>" class="header__user-menu-photo" alt="Аватар пользователя"/>
         </a>
         <a href="#" class="header__user-menu-logout">Выйти</a>
       </div>
@@ -107,6 +106,5 @@
     </section>
     <footer class="footer"></footer>
     </section>
-    <script src="./index.js"></script>
   </body>
 </html>
